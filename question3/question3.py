@@ -9,7 +9,10 @@ def printwords(lst):
 	for word in distinct:
 		count = lst.count(word)
 		listorder.append((word,count))
+	sortlist = sorted(listorder,key=lambda tup:tup[1],reverse=True)
+	finallist = []
+	for word in sortlist:
+		finallist.append(word[0])
+	return finallist
 
-
-	return listorder, distinct
 

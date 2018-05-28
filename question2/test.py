@@ -9,3 +9,8 @@ def testpower():
 	a1 = 0
 	n1 = 0
 	assert power(a1,n1) == 0
+
+	a2 = 2
+	n2 = 0
+	assert power(a2,n2) == 1
+

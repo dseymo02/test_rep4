@@ -1,3 +1,4 @@
 {
+  "test.py::testlexorder": true,
   "test.py::testprintwords": true
 }

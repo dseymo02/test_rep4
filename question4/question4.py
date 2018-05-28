@@ -18,3 +18,17 @@ def oneLang(num,stud1,stud2):
 	newlist2.sort(reverse=False)
 	return count, newlist2
 
+def main():
+	num = input("please enter number of students: ")
+	students = []
+	for n in range(0,num):
+		student[n] = input()
+	for n in range(0,num):
+		resultall = allLang(student[n])
+
+
+
+
+if __name__ == "__main__":
+	main()
+
